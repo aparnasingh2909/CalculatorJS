@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #255784;
+    transition: 1.5s;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    -webkit-background-clip: text;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 34px;
+    height: 62px;
+    border-radius: 11px;
+    text-align: center;
+    
+}
+
+body:hover {
+    background-color: black;
+}
+
+button {
+    font-size: 24px;
+    height: 91px;
+    width: 100px;
+    border-radius: 71px;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+button:hover {
+    border: 4px solid #e902c2;
+    /* transform: rotate(360deg); */
+    color: #255784;
+    box-shadow: 0 0 10px rgb(231, 30, 181), 0 0 40px rgb(231, 30, 204), 0 0 80px rgb(231, 30, 187);
+}
+
+h1 {
+    height: 40px;
+}
